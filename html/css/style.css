@@ -28,7 +28,11 @@ a.page-link {
     background: #e2e265;
     color: black;
 }
-
+.pussy {
+    width: 400px;
+    height: 267px;
+    border: #fce205 groove;
+}
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
     width: 70%;
