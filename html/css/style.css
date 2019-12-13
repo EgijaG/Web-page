@@ -1,0 +1,98 @@
+* {
+    font-family: 'Courier Prime', monospace;
+}
+body {
+    width:100%;
+    background: #fdfd96;
+    background-size:cover;
+    margin-bottom: 100px;
+}
+.navbar {
+    background: #fce205;
+    height: fit-content;
+}
+.container {
+    margin-top: 20px;
+}
+
+a {
+    color: black;
+}
+.breadcrumb {
+    background: #fdfd96;
+}
+ul.pagination {
+    margin: 20px;
+}
+a.page-link {
+    background: #e2e265;
+    color: black;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+.labels {
+    margin-bottom: 23px;
+}
+.articles {
+    display: flex;
+    border: 2px black;
+}
+.check {
+    background: #fdfd96
+}
+
+.mr-3 {
+    height: 64px;
+    width: 64px;
+}
+.card-img-top {
+    width: 350px;
+    height: 217px;
+    border: black groove;
+}
+.card {
+    background: #558bae;
+
+}
+.card1 {
+    background: #fce205;
+    margin-bottom: 20px;
+}
+#art2 {
+    background: #00a08f;
+}
+.media-body {
+    margin: 10px;
+}
+hr {
+    display: flex;
+    color: black 4px;
+}
+footer {
+    background: #fce205;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 600px;
+}
+#gmap_canvas {
+    border: black groove;
+    align-content: center;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}

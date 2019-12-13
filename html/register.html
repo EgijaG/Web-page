@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Register</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Courier+Prime:400,400i,700,700i&display=swap&subset=latin-ext"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="navbar-brand" href="">
+        <img src="img/logo.svg" width="50" height="50" alt="">
+      </a>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html" tabindex="-1" aria-disabled="true">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="articles.html">Articles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="chat.html">Chat</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="register.html">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About us</a>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3 class="labels">First Name</h3>
+        <h3 class="labels">Surname</h3>
+        <h3 class="labels">Password</h3>
+        <h3 class="labels">Repeat Password</h3>
+        <h3 class="labels">Country</h3>
+      </div>
+      <div class="col-md-4">
+        
+        <form id="reg-form">
+          <div class="form-group ml-3">
+            <input type="text" id="first-name" class="form-control" value="" required />
+          </div>
+          <div class="form-group ml-3">
+            <input type="text" id="last-name" class="form-control" value="" required />
+          </div>
+          <div class="form-group ml-3">
+            <input type="password" id="password" class="form-control" value="" required />
+          </div>
+          <div class="form-group ml-3">
+            <input type="password" id="password-confirm" class="form-control" value="" required />
+          </div>
+          <div class="form-group ml-3">
+            <input type="text" id="country" class="form-control" required />
+          </div>
+          <div class="form-group ml-3">
+            <input type="checkbox" id="reg-checkbox">Agree with terms and conditions
+          </div>
+          <div>
+              <button type="button" class="btnSubmit">Submit</button>
+          </div>
+      </div>
+    <div class="col-md-4">
+      <div class="form-group">
+        <input type="text" id="first-name-check" class="form-control check" value="" readonly/>
+      </div>
+      <div class="form-group">
+        <input type="text" id="last-name-check" class="form-control check" value=""  readonly/>
+      </div>
+      <div class="form-group">
+        <input type="text" id="password-check" class="form-control check" value="" readonly/>
+      </div>
+      <div class="form-group">
+        <input type="text" id="password-confirm-check" class="form-control check" value="" readonly/>
+      </div>
+      <div class="form-group">
+        <input type="text" id="country-check" class="form-control check" value="" readonly/>
+      </div>
+      <div class="form-group">
+        <input type="text" id="checkbox-check" class="form-control check" value="" readonly/>
+      </div>
+    </div>
+  </div>
+  </form>
+
+  </div>
+  
+  </div>
+  </div>
+  <footer>
+    <div class=" container disabled">
+      <P>&copy; 2019 Egija Graudina</P>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="script/script.js"></script>
+</body>
+
+</html>
